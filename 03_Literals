@@ -1,0 +1,24 @@
+public class HelloWorld{
+    public static void main(String[] args){
+
+        //  right hand side of the assignment operator is called as literal value
+
+       int a = 10;
+       byte b = 20;
+       short c =765;
+
+       long d = 100000L; 
+       long d1 = 100000l;
+
+       char e = 'A';
+
+       float f = 10.5f;
+       float f1 = 10.5F;
+
+       double g = 20.5d;  // by default double is used for decimal values
+       double g1 = 20.5D; 
+
+       boolean h = true;
+       boolean h1 = false;
+    }
+}
