@@ -1,0 +1,29 @@
+public class HellloWorld {
+    public static void main(String[] args){
+        /*
+                                DATA TYPES IN JAVA
+                        > byte : RANG -128 TO 127 | 1 BYTE
+                        > short :  RANG -32,768 TO 32,767 | 2 BYTES
+                        > int :  RANG -2,147,483,648 TO 2,147,483,647 | 4 BYTES
+                        > float :  RANG 1.4E-45 TO 3.4E38 | 4 BYTES
+                        > double :  RANG 4.9E-324 TO 1.8E308 | 8 BYTES
+                        > char :  RANG 0 TO 65,535 | 2 BYTES
+                        > long :  RANG -9,223,372,036,854,775,808 TO 9,223,372,036,854,775,807 | 8 BYTES        
+                        > boolean :  RANG true OR false | 1 BIT
+        */
+
+
+        //PROGRAM TO ADD 3 NUMBERS
+
+        int a = 10;
+        int b = 20; 
+        int c = 30;
+        int sum = a + b + c;
+        System.out.println("The sum of 3 numbers is: " + sum);
+
+
+        //println adds a new line whereas print does not add a new line
+
+
+    }
+}
