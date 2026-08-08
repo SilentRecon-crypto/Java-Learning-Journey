@@ -25,6 +25,20 @@ class Main {
             System.out.println(n);
             n++;
         }while(n<=100);
+
+
+    // for loops
+        
+        // for(int i =0 ; i<=10;i++){
+        //     System.out.println(i);
+        // }
+
+
+
+        // in reverse order
+        for(int i =7 ; i>0;i--){
+            System.out.println(i);
+        }
         
         }
         
