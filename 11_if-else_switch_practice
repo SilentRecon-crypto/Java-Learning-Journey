@@ -1,0 +1,80 @@
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        
+    //Q1  java program to tell whether the student is pass or fail to pass 40 percent in total nd 33 percent in individual subjects needed
+        
+                    // Scanner sc = new Scanner(System.in);
+                    
+                    // System.out.println("enter your marks 1");
+                    // float a = sc.nextInt();
+                    
+                    //  System.out.println("enter your marks 2");
+                    // float b = sc.nextInt();
+                    
+                    //  System.out.println("enter your marks 3");
+                    // float c = sc.nextInt();
+                    
+                    // float sum = a+b+c;
+                    
+                    // float percentage = (sum/300f)*100;
+                    // System.out.println(percentage);
+                    
+                    // if (percentage>=40 && a>33 && b>33 && c>33){
+                    //     System.out.println("congrats ur a passed");
+                    // }
+                    // else{
+                    //     System.out.println("u r failed");
+                    // }
+        
+        
+    //Q2 JAVA PROGRAM TO SEE WEEKDAY USING SWITCH
+        
+                    // System.out.println("enter your week number");
+                    // int a = sc.nextInt();
+                    // switch (a) {
+                    //     case 1:
+                    //         System.out.println("Monday");
+                    //         break;
+                    //     case 2:
+                    //         System.out.println("Tuesday");
+                    //         break;
+                    //     case 3:
+                    //         System.out.println("Wednesday");
+                    //         break;
+                    //     case 4:
+                    //         System.out.println("Thursday");
+                    //         break;
+                    //     case 5:
+                    //         System.out.println("Friday");
+                    //         break;
+                    //     case 6:
+                    //         System.out.println("Saturday");
+                    //         break;
+                    //     case 7:
+                    //         System.out.println("Sunday");
+                    //         break;
+                    //     default:
+                    //         System.out.println("Invalid day number. Please enter a number between 1 and 7.");
+                    // }
+        
+        
+    //Q3  CHECK WHETHER THE INPUT YEAR IS LEAP OR NOT 
+        
+        
+                    // System.out.println("Enter your year");
+                    // int year = sc.nextInt();
+            
+                    
+                    // if (year % 400 == 0) {
+                    //     System.out.println(year + " is a leap year.");
+                    // } else if (year % 100 == 0) {
+                    //     System.out.println(year + " is NOT a leap year.");
+                    // } else if (year % 4 == 0) {
+                    //     System.out.println(year + " is a leap year.");
+                    // } else {
+                    //     System.out.println(year + " is NOT a leap year.");
+                    // }
+                }
+            }
