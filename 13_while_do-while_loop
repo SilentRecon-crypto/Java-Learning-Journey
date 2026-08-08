@@ -15,6 +15,18 @@ class Main {
             System.out.println(number + "X" + start + "=" + number*start);
             start++;
         }
+
+        
+        //  do while loop
+        
+        // programe to print first 100 natural number using do while loop
+        int n = 1;
+        do{
+            System.out.println(n);
+            n++;
+        }while(n<=100);
+        
+        }
         
         
         }
