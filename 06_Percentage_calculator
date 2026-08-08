@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your marks 1");
+        int a = sc.nextInt();
+        
+        System.out.println("enter your marks 2");
+        int b = sc.nextInt();
+        
+        System.out.println("enter your marks 3");
+        int c = sc.nextInt();
+        
+        System.out.println("enter your marks 4");
+        int d = sc.nextInt();
+        
+        System.out.println("enter your marks 5");
+        int e = sc.nextInt();
+        
+        int sum = a+b+c+d+e;
+        float percentage = (sum *100)/500;
+        System.out.println(percentage);
+    }
+}
