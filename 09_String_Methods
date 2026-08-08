@@ -1,0 +1,71 @@
+ import java.util.Scanner ; 
+class Main {
+    public static void main(String[] args) {
+        
+        // strings are immutable data types
+        
+        // different types by which we can declare a string
+        
+                // String a = "harry";
+                // String a1 = new String("hairy");
+                
+                // System.out.println(a);
+                // System.out.println(a1);
+        
+        
+        // string methods
+
+
+        String name = "ShaUrya";
+        // System.out.println(name.length()); // prints length of the string
+        
+        
+        //  System.out.println(name.toLowerCase());//prints the string in complete lowercase
+        
+        
+        //   System.out.println(name.toUpperCase());//prints the string in complete uppercase
+          
+        
+         String game = "        RAmjg edsa        ";
+         
+        //  System.out.println(game);
+        //  System.out.println(game.trim());//trim method remove the whitespaces from the string only front nd back
+        
+         
+        //  System.out.println(name.substring(2));//this method takes a start valund prints the string from that index to the end 
+        
+        
+        //  System.out.println(name.substring(1,4));//takes both start and end but end is excluded
+         
+         
+         
+         String fame = new String("harry");
+        //  System.out.println(fame.replace('r','p'));//this methods replaces the first letter with the second one for all occurance of first 
+        
+        
+        // System.out.println(fame.startsWith("h"));
+        // System.out.println(fame.endsWith("h"));
+        
+        
+        //System.out.println(fame.charAt(2));//prints character at that index
+        
+        
+        // System.out.println(fame.indexOf("r"));//return first index of that char and returns -1 if no match is found
+        
+        
+        // System.out.println(fame.equals("harry"));//prints true if string is same but print false if case is different
+        
+        
+        // System.out.println(fame.equalsIgnoreCase("HARRY"));//ignore the case senstivity 
+         
+         
+         
+        //  Escape Sequence Characters
+        
+        // \n  new line 
+        // \t  new tab
+        // \'  new single quote
+        // \\  new backslash
+         
+}
+}
