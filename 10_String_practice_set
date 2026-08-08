@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        
+    // q1 java program to convert string to lowercase
+        
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("enter your string");
+        // String a = sc.nextLine();
+        // System.out.println(a.toLowerCase());
+        
+        
+        
+    // q2 java program to replace whitespace with underscores
+        
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("enter your string");
+        // String a = sc.nextLine();
+        // System.out.println(a.replace(" " , "_"));
+        
+        
+        
+    // q3 java program to replace name in a letter format 
+        
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("enter your name");
+        // String a = sc.nextLine();
+        
+        // String letter = " Dear <|Name|> , Thanks a lot " ;
+        
+        // System.out.println(letter.replace("<|Name|>" , a));
+        
+        
+        
+    }
+}
