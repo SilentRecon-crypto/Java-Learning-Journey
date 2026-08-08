@@ -1,0 +1,70 @@
+import java.util.Random;
+import java.util.Scanner;
+
+
+class Main {
+    public static void main(String[] args) {
+        
+        Random rand = new Random();
+        
+        // Origin (1) is inclusive, Bound (4) is exclusive. Generates 1, 2, or 3.
+        /*
+        1 FOR ROCK
+        2 FOR PAPER
+        3 FOR SCISSORS
+        */
+
+      
+        int randomNumber = rand.nextInt(1, 4); 
+        
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your choice(press 1 for rock 2 for paper and 3 for scissors) ");
+        int a = sc.nextInt();
+      
+        
+        if (randomNumber==1 && a==1){
+            System.out.println("computer chooses rock nd user chooses rock");
+            System.out.println("its a draw");
+        }
+        else if (randomNumber==1 && a==2){
+            System.out.println("computer chooses rock nd user chooses paper");
+            System.out.println("user wins");
+        }
+        else if (randomNumber==1 && a==3){
+            System.out.println("computer chooses rock nd user chooses scissors");
+            System.out.println("user lost");
+        }
+        
+        
+        else if (randomNumber==2 && a==1){
+            System.out.println("computer chooses paper nd user chooses rock");
+            System.out.println("user lost");
+        }
+        else if (randomNumber==2 && a==2){
+            System.out.println("computer chooses paper nd user chooses paper");
+            System.out.println("its a draw");
+        }
+        else if (randomNumber==2 && a==3){
+            System.out.println("computer chooses paper nd user chooses scissors");
+            System.out.println("user win");
+        }
+        
+        
+        else if (randomNumber==3 && a==1){
+            System.out.println("computer chooses scissor nd user chooses rock");
+            System.out.println("user win");
+        }
+        else if (randomNumber==3 && a==2){
+            System.out.println("computer chooses scissor nd user chooses paper");
+            System.out.println("user lost");
+        }
+        else if (randomNumber==3 && a==3){
+            System.out.println("computer chooses scissor nd user chooses scissors");
+            System.out.println("its a draw");
+        }
+        else{
+             System.out.println("invalid optiom");
+        }
+    }
+}
