@@ -1,0 +1,21 @@
+ import java.util.Scanner ; 
+class Main {
+    public static void main(String[] args) {
+        
+        // String name = "harry";
+        // System.out.println(name);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter string 1");
+        String se = sc.nextLine(); // reads entire line  
+        
+        System.out.println("enter string 2");
+        String st = sc.next();// reads till the whitespace
+        
+        System.out.println(st);
+        System.out.println(se);
+        
+        
+        
+}
+}
