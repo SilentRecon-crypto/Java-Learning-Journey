@@ -1,0 +1,75 @@
+//Q1 java program to sum first 4 natural even number
+
+class Main {
+    public static void main(String[] args) {
+       
+        int n =4;
+        int total=0;
+        for(int i =1 ; i<=n ; i++){
+            int a = 2*i;
+            total = total+a ;
+            System.out.println(a);
+        }
+        System.out.println(total);
+    }
+}
+
+
+//Q2 java program to print the table of 10 in reverse order
+
+class Main {
+    public static void main(String[] args) {
+        int n = 10; 
+        for (int i = 10; i > 0; i--) {
+            System.out.println(n + " X " + i + " = " + n * i);
+        }
+    }
+}
+
+
+//Q3 java program to calculate the factorial of 5 
+
+class Main {
+    public static void main(String[] args) {
+    
+        float k = 1;
+        int n = 5;
+        for (int i = n; i > 0; i--) {
+            k = k * i;
+        }
+        System.out.println(k);
+    }
+}
+
+
+//Q4 java program to print factorial of 5 using while loop 
+
+class Main {
+    public static void main(String[] args) {
+        float k = 1;
+        int n = 5;
+        while (n >= 1) {
+            k = k * n;
+            
+            n--; 
+        }
+        System.out.println(k);
+    }
+}
+
+
+//Q5 java program to calculates and prints the sum of the first 10 multiples of the number 8.
+
+class Main {
+    public static void main(String[] args) {
+        float k = 0;
+        int n = 8;
+        
+        for (int i = 1; i <= 10; i++) {
+            int a = i * n;
+            k = k + a;
+        }
+        
+        System.out.println(k);
+    }
+}
