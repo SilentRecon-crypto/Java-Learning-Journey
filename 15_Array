@@ -1,0 +1,47 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        // System.out.println("Arrays");
+        // elements of arrays are mutable
+
+
+        // way one to make an array
+        //int[] marks = new int[5];
+
+        // 2nd way 
+        // int [] marks ; 
+        // marks=new int[5];
+
+        // 3rd way
+        // int[] marks = {12,43,654,8765,321};
+
+        // marks[0]=23;
+        // marks[1]=34;
+        // marks[2]=75;
+        // marks[3]=785;
+        // marks[4]=8785;
+        // System.out.println(marks[3]);
+
+
+
+        // OPERATIONS ON ARRAYS
+
+        int[] marks = new int[5];
+
+        marks[0]=23;
+        marks[1]=34;
+        marks[2]=75;
+        marks[3]=785;
+        marks[4]=8785;
+
+    // program to print array in reverse order 
+        int a=marks.length; //to find length of an array
+        System.out.println(a);
+        for(int i = a-1 ; i>=0 ; i-- ){
+        System.out.println(marks[i]);
+
+    }
+    }
+    }
