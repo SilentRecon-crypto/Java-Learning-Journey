@@ -1,0 +1,24 @@
+
+class Main {
+
+  static void overload(){
+    System.out.println("good morning dumbo\n");
+  }
+
+   static void overload(int a ){
+    System.out.println("good morning " + a + " dumbo\n");
+  }
+
+     static void overload(int a , int b ){
+    System.out.println("good morning " + a + " dumbo");
+    System.out.println("good morning " + b + " dumbo\n");
+  }
+
+    public static void main(String[] args) {
+
+      overload();
+      overload(1000);
+      overload(1234,4321);
+
+    }
+}
