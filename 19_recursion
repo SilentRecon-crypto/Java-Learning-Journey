@@ -1,0 +1,21 @@
+
+class Main {
+
+  static int factorial(int n){
+    if(n==0 || n==1){
+      return 1;
+    }
+    else{
+      return n* factorial(n-1);
+    }
+  }
+    public static void main(String[] args) {
+      // recursion
+
+      // write a program to rpint factorial of a number using recursion
+
+      int c =factorial(1);
+      
+        System.out.println(c);
+    }
+}
