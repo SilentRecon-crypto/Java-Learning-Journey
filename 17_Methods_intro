@@ -1,0 +1,18 @@
+class Main {
+  // methods (A function inside a class )
+  static int glass (int x ,int y ){
+    int z;
+  if (x>y){
+     z = (x+y);
+  }
+  else{
+    z = (x+y)*5 ; 
+  }
+  return z ;
+}
+    public static void main(String[] args) {
+      int c = glass(4,3);
+      
+        System.out.println(c);
+    }
+}
