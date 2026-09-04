@@ -16,3 +16,21 @@ class Main {
         System.out.println(c);
     }
 }
+
+
+
+
+//change with array 
+
+
+class Main {
+  // when we dont want our method to return anytihng we use void as return typee
+    static void change(int [] arr){
+    arr[0]=87;
+  }
+    public static void main(String[] args) {
+       int[] marks = {56,75,35,66,46,86};
+      change(marks);
+      System.out.println(marks[0]);
+    }
+}
