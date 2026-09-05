@@ -1,0 +1,19 @@
+class Main {
+    public static void main(String[] args) {
+
+        System.out.println("----------OBJECT ORIENTED PROGRAMMING----------");
+        // CLASS is a blueprint for creating objects
+
+        //1. Abstraction: hiding internal details show only essential info 
+
+        //2. Encapsulation: the act of putting various components together
+
+        //3. Inheritance: act of getting new things from existing things
+
+        //4. Polymorphism: one entity many forms 
+        
+        
+    }
+}
+
+
