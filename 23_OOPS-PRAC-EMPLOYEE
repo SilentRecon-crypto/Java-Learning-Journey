@@ -1,0 +1,38 @@
+class Employee{
+    int salary ; 
+    String Name ;
+
+    public void getSalary(){
+        System.out.println(salary); 
+    } 
+
+    public void getName(){
+        System.out.println(Name);
+    }
+
+    public String setName(String a){
+        Name = a ; 
+        
+        System.out.println("the updated name is " + Name);
+        return  Name;
+    }
+
+    
+}
+
+class Main {
+    public static void main(String[] args) {
+
+        Employee shaurya = new Employee();
+        shaurya.salary = 1234;
+        shaurya.Name = "shaurya";
+
+        shaurya.getSalary();
+        shaurya.getName();
+        shaurya.setName("radhe");
+        shaurya.getName();
+  
+    }
+}
+
+
